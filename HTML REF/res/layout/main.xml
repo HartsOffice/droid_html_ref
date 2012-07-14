@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+						xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="50dip"
+                         ads:adUnitId="a14e0b69e9a2a03"
+                         ads:adSize="BANNER"
+                         ads:loadAdOnCreate="true"/>
+    <WebView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@+id/adView"
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:theme="@android:style/Theme.NoTitleBar"
+/>
+<!--  
+<ImageView 
+		android:id="@+id/adspace"
+		android:background="#000"
+		android:src="@drawable/devry_320x53"
+		android:scaleType="fitCenter"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:autoLink="web"
+		
+	/>
+-->
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">HTML Reference</string>
+    
+    <string-array name = "menus">
+    	<item>Intro</item>
+    	<item>Basics</item>
+    	<item>Text</item>
+    	<item>Links</item>
+    	<item>Images</item>
+    	
+    </string-array>
+    
+    <string-array name = "file_path">
+    	<item>00_Intro.html</item>
+    	<item>01_Basics.html</item>
+    	<item>02_Text.html</item>
+    	<item>03_Links.html</item>
+    	<item>04_Images.html</item>
+    	
+    </string-array>
+</resources>
